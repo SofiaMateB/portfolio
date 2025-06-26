@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="particulas.css">
+
+</head>
+<body >
+    <!-- MENU ENCABEZADO -->
+     <div id="particles-js"></div>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sofia</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner" >
+            <div class="contenedor-img">
+                <img src="img/hero.jpeg" alt="">
+            </div>
+            <h1>Sofia Mateus </h1>
+            <h2>Desarrolladora Full Stack</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi" >
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Sofia Mateus.</span> Desarrolladora full stack con mente curiosa y corazón creativo. Me apasiona convertir ideas en experiencias digitales funcionales y atractivas. Disfruto trabajar en equipo, aprender de cada proyecto y crear soluciones que realmente marquen la diferencia.
+                Siempre estoy buscando el próximo desafío que me haga crecer como profesional... y como persona</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nombre</strong>
+                           Sofia Mateus Benavides
+                        </li>
+                        <li>
+                            <strong>Edad</strong>
+                           23
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                           3042108943
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                           sofiamateusb@hotmail.es
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.linkedin.com/in/sofia-mateus-21a5aa18b
+                        </li>
+                    </ul>
+
+                    <h3>IDIOMAS</h3>
+                   <ul>
+                    <li>
+                        <strong>Español</strong>
+                       Nativo
+                    </li>
+                    <li>
+                        <strong>Ingles</strong>
+                       Intermedio
+                    </li>
+                </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion" > 
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Php</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Vue js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Laravel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+                <div class="col" style="margin: 60px;">
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PL/SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MYSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Postgresql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>AWS Lambda</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                <div class="skill">
+                    <span>Gestion de tiempo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                                        
+                    <div class="skill">
+                        <span>Organizacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería de Sistemas 
+                        </h4>
+                        <span class="casa">Universidad Cooperativa 
+                            de Colombia </span>
+                        <span class="fecha">2025</span>
+                        <p>Bogotá, Colombia</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>
+                            Tecnólogo en Análisis y 
+                            Desarrollo de Sistemas 
+                            de Información </h4>
+                        <span class="casa">Servicio Nacional de 
+                            Aprendizaje </span>
+                        <span class="fecha">2019</span>
+                        <p>Bogotá, Colombia</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico en 
+                            Programación de 
+                            Software </h4>
+                        <span class="casa">Servicio Nacional de 
+                            Aprendizaje </span>
+                        <span class="fecha">2017</span>
+                        <p>Bogotá, Colombia</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4> 
+                            English Dot Works 1 </h4>
+                        <span class="casa">Servicio Nacional de 
+                            Aprendizaje </span>
+                        <span class="fecha">60 horas cada uno </span>
+                        <p>Bogotá, Colombia</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>English Dot Works Beginner  </h4>
+                        <span class="casa">Servicio Nacional de 
+                            Aprendizaje </span>
+                        <span class="fecha">60 horas cada uno</span>
+                        <p>Bogotá, Colombia</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Desarrollador Web</h4>
+                        <span class="casa">CLAI PAYMENTS</span>
+                        <span class="fecha">05-2024 - Actualmente</span>
+                        <p>Desarrollo y mantenimiento de aplicaciones web, implementando nuevas funcionalidades, corrigiendo errores y optimizando el rendimiento con tecnologías como Vue.js, JavaScript, jQuery, Bootstrap y Node.js.
+                            Integración de sistemas mediante APIs REST, asegurando la comunicación efectiva entre entornos web y plataformas RPG.
+                            Realización de mejoras en programas RPG existentes para garantizar una interoperabilidad fluida y estable</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrolladora Full Stack</h4>
+                        <span class="casa">INVERPALMAS S.A.S</span>
+                        <span class="fecha">06-2021 - 05-2024 </span>
+                        <p>Durante mi experiencia en esta empresa, participé en la recopilación y análisis de información para adaptarla a las necesidades específicas de los usuarios, el diseño y desarrollo de interfaces de usuario intuitivas, y la creación de servicios web y APIs REST que facilitaron la comunicación entre sistemas. Me encargué del diseño, administración y mantenimiento de bases de datos en MySQL y PL/SQL, así como del despliegue, configuración y soporte de servidores en entornos de producción con Ubuntu. Además, desarrollé aplicaciones y reportes internos en PHP y Laravel para automatizar procesos, y realicé análisis de resultados y generación de reportes </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4> Desalloradora SAP BTP / SAPUI5 |Node js</h4>
+                        <span class="casa">MUNDO CLOUD</span>
+                        <span class="fecha">06-2019 - 06-2021</span>
+                        <p>Participé activamente en la creación y adaptación de una plataforma para una empresa con operaciones a nivel nacional, utilizando tecnologías como SAPUI5, JavaScript, Node.js y SAP HANA, bajo el modelo MVC y el entorno SAP BTP. Implementé ajustes y personalizaciones según los requerimientos específicos del cliente, asegurando que cada funcionalidad respondiera a sus necesidades reales. Además, trabajé bajo la metodología ágil SCRUM, contribuyendo a una gestión eficiente del desarrollo y facilitando una colaboración continua entre los diferentes equipos de trabajo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4> Aprendiz de desarrollado de software en el área de 
+                            TI </h4>
+                        <span class="casa">MQA SURAMERICA </span>
+                        <span class="fecha">12-2018 - 06-2019</span>
+                        <p>Recopilé y analicé información para dar solución a necesidades del área TI, donde diseñé y desarrollé un sistema de información para automatizar procesos manuales de la mesa de ayuda, utilizando PHP, JavaScript, CSS, jQuery y AJAX. Me encargué de la gestión y documentación de aplicaciones existentes, asegurando una estructura organizada y eficiente. Implementé ajustes en sistemas desarrollados con SAPUI5, SAP HANA y ERP, y realicé funciones de testing para garantizar la calidad y confiabilidad de los sistemas evaluados.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO GIT</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>TIENDA VIRTUAL</h3>
+                        <a href="https://gitlab.com/SofiaM/shop_myj" target="_blank" class="repo-link">Ver repositorio</a>
+
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>MAESTRAS</h3>
+                    <a href="https://gitlab.com/SofiaM/shop_myj" target="_blank" class="repo-link">Ver repositorio</a>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>RULETA</h3>
+                        <a href="https://gitlab.com/SofiaM/shop_myj" target="_blank" class="repo-link">Ver repositorio</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                               Bogota, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contacto: 3042108943 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: sofiamateusb@hotmail.es
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> 
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="particles.js"></script>
+
+</body>
+</html>
